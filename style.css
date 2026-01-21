@@ -89,7 +89,7 @@ header .container {
 /* Hero Section */
 .hero {
     padding: 160px 0 100px;
-    background: linear-gradient(rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.8)), url('https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&q=80');
+    background: linear-gradient(rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.8)), url('images/hero.jpg');
     background-size: cover;
     background-position: center;
     color: var(--white);
@@ -127,6 +127,25 @@ header .container {
 .primary-btn:hover {
     background-color: #2563eb;
     transform: translateY(-2px);
+}
+
+/* Philosophy Section */
+.philosophy {
+    padding: 60px 0;
+    background-color: var(--white);
+    text-align: center;
+}
+
+.philosophy-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.lead-text {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 15px;
 }
 
 /* Sections General */
