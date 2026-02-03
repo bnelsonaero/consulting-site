@@ -1,0 +1,30 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# API keys and credentials
+config.js
+secrets.js
+credentials.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if you use any build tools)
+node_modules/
+
+# Build outputs (if applicable)
+dist/
+build/
+
+# Log files
+*.log
+npm-debug.log*
