@@ -283,6 +283,16 @@ section {
     background-color: #1e293b;
 }
 
+/* HubSpot Form Container */
+.hubspot-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: var(--white);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
 /* Footer */
 footer {
     background-color: var(--primary-color);
